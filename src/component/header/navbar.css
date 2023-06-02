@@ -1,0 +1,36 @@
+.navbar{
+    padding: 00px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar li a:hover{
+    color: rgb(248, 142, 3);
+}
+.navbar .logo img{
+    height: 70px;
+}
+.navbar .menu .button{
+    border: 1px solid transparent;
+    margin: 0;
+    background-color: rgb(248, 142, 3);
+    color: white;
+}
+.navbar .menu .button:hover{
+    border: 1px solid transparent;
+    margin: 0;
+    background-color: rgb(170, 134, 88);
+    color: white;
+}
+.navbar .menu .button a{
+    color: white;
+}

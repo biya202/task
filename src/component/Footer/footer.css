@@ -1,0 +1,193 @@
+.mymene{
+    text-align: center;
+    padding-top: 40px;
+}
+.footer-top{
+    background-color: rgb(38, 38, 65);
+}
+.footer-top li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+}
+.footer-top li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.footer-top li a:after {
+    content: '';
+    width: 1px;
+    position: relative;
+    height: 25px;
+    background-color: #ffffff;
+    display: block;
+    left: -30px;
+    top: -20px;
+}
+.column li{
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.column li a{
+   text-decoration: none;
+   color: white;
+   background-color: rgb(248, 142, 3);
+   padding: 15px;
+   margin-top: 10px;
+   border: 1px solid rgb(248, 142, 3);
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+  }
+  .foter{
+    background: rgb(29, 25, 75);
+    padding: 80px 0;
+    color: aliceblue;
+  }
+  /*--------- Contacts -----------*/
+  .contact ul li a{
+      color: white;
+      text-decoration: none;
+      list-style: none;
+  }
+  .contact h1{
+    font-size: x-large;
+  }
+  .timing .fall-winter{
+    font-size: x-large;
+  }
+  .menu-strong a{
+    font-size: x-large;
+  }
+  .review-strong a{
+    font-size: x-large;
+  }
+  .contact ul li{
+    padding-top: 30px;
+    list-style: none;
+  }
+  .contact ul li :hover{
+    color: rgb(110, 110, 242);
+  } 
+  .contact .sociallinks li{
+    display: inline-block;
+    padding-top: 30px;
+    padding-right: 10px;
+  }
+  /*--------- Timings -----------*/
+  /* .timing{
+    padding-bottom: 70px;
+  } */
+  .timing a{
+    color: white;
+    text-decoration: none;
+  }
+  .fall-timing :hover{
+    color: rgb(110, 110, 242);
+  } 
+  .timing-fall-summer{
+    padding-bottom: 30px;
+  }
+  .fall-timing{
+    padding-top: 15px;
+  }
+  /*--------- Footer Menu -----------*/
+  .menu-footer{
+    padding-bottom: 20px;
+  }
+  .menu-footer a{
+    color: white;
+    text-decoration: none;
+  }
+  .menu-strong{
+    padding-bottom: 30px;
+  }
+  .menu-elements a:hover{
+    color: rgb(110, 110, 242);
+  }
+  
+  .menu-elements ul li{
+    list-style: none;
+  }
+  .menu-elements ul li{
+    padding-bottom: 20px;
+  }
+  
+  
+  /*--------- Reviews -----------*/
+  .review-footer a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px;
+  }
+  .review-footer{
+    padding-bottom: 40px;
+  }
+  .review-strong{
+    padding-bottom: 30px;
+  }
+  .review-elements a:hover{
+    color: rgb(110, 110, 242);
+  } 
+  .review-elements ul li{
+    list-style: none;
+    padding-bottom: 20px;
+  }
+  /*--------- Subscribe -----------*/
+  .sub-bar{
+    display: flex;
+    justify-content: space-between;
+  }
+  .serach-text{
+    margin-top: 30px;
+  }
+  .subscribe a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subscribe-button{
+    display: inline-block;
+    background-color: #f9a618;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid #f9a618;
+    font-size: 20px;
+    min-width: 12em;
+    margin-top: 8px;
+    color: black;
+    padding: 20px 20px;
+  }
+  
+  .search-penal{
+    margin-top: 16px;
+  }
+  .search{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .search-penal input{
+    min-width: 380px;
+    border-radius: 10px;
+    line-height: 4;
+  }
+  /*--------- Copy Rights -----------*/
+  .copt-right{
+    background: rgb(255, 255, 255);
+    padding: 2px 0;
+    font-size: 15px;
+    color: aliceblue;
+  }
+  .copy{
+    color: #000;
+    text-align: center;
+  }
